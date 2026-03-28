@@ -328,11 +328,15 @@ POST /users
 }
 ```
 ### Setup Instructions
-1. Clone Repository
-```git clone https://github.com/yourusername/streakify.git```
-2. Setup PostgreSQL
-```CREATE DATABASE streakify_db;```
-3. Configure Database
+1. Clone Repository  
+```
+git clone https://github.com/yourusername/streakify.git
+```
+3. Setup PostgreSQL
+```
+CREATE DATABASE streakify_db;
+```
+5. Configure Database
 ```spring.datasource.url=jdbc:postgresql://localhost:5432/streakify_db
 spring.datasource.username=postgres
 spring.datasource.password=yourpassword
@@ -342,38 +346,42 @@ mvn spring-boot:run
 
 Application runs at:
 
+```
 http://localhost:8080
+```
 ### Postman Testing
 
-Test cases covered:
+## Test cases covered:
 
-Positive
-Create User
-Create Habit
-Log Habit
-Fetch Streak
-Dashboard
-Negative
-Duplicate log
-Future date
-Invalid email
-User not found
-Features Implemented
-User Management
-Habit Management
-Habit Logging
-Streak Calculation
-Dashboard Analytics
-Validation
-Exception Handling
-PostgreSQL Integration
-Future Improvements
-JWT Authentication
-Swagger API Documentation
-Frontend Integration
-Notifications System
-Advanced Analytics
-Author
+- Positive
+- Create User
+- Create Habit
+- Log Habit
+- Fetch Streak
+- Dashboard
+- Negative
+- Duplicate log
+- Future date
+- Invalid email
+- User not found
 
+### Features Implemented
+- User Management
+- Habit Management
+- Habit Logging
+- Streak Calculation
+- Dashboard Analytics
+- Validation
+- Exception Handling
+- PostgreSQL Integration
+### Future Improvements
+- JWT Authentication
+- Swagger API Documentation
+- Frontend Integration
+- Notifications System
+- Advanced Analytics
+
+### Author
 Jezard Nikson K
+
 B.Tech Computer Science Engineering
